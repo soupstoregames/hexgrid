@@ -63,7 +63,7 @@ func NewHex(q, r int) Hex {
 }
 
 func (h Hex) String() string {
-	return fmt.Sprintf("(%d,%d)", h.Q, h.R)
+	return fmt.Sprintf("%d-%d", h.Q, h.R)
 }
 
 // fractionHex provides a more precise representation for hexagons when precision is required.
